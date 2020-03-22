@@ -21,7 +21,7 @@ type ConfigManager struct {
 var (
 	opts          *Options
 	configManager *ConfigManager
-	modelProMap   = &sync.Map{} // 存放各配置业务数据  string -> *ConfigManagerInterface  TODO 需要看可否去掉地址
+	modelProMap   = sync.Map{} // 存放各配置业务数据  string -> *ConfigManagerInterface
 )
 
 func Init(ops ...Option) {
