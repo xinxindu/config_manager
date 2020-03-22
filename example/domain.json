@@ -1,0 +1,12 @@
+{
+  "domain_list": [
+    {
+      "domain":  "www.test1.com",
+      "is_use": true
+    },
+    {
+      "domain":  "www.test2.com",
+      "is_use": false
+    }
+  ]
+}
